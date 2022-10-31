@@ -10,16 +10,18 @@ namespace WindowsFormsKiwiApp
     {
         public bool IsKiwi { get; set; }
         
-        public Picture(bool k)
+        public Picture(int index)
         {
-            this.IsKiwi = k;
+            //int result = new Random().Next(1, 3);
+            this.IsKiwi = (index == 1) ? true : false;
         }
-        public void checkKiwi(Random drawPic)
+        public void checkKiwi(int index)
         {
             //Random r = new Random();
-            int result = drawPic.Next(1,3);
-            {
-                if (result == 1)
+            //int result = new Random().Next(1, 3);
+            
+
+                if (index == 1)
                 {
                     this.IsKiwi = true;
                 }
@@ -27,7 +29,7 @@ namespace WindowsFormsKiwiApp
                 {
                     this.IsKiwi = false;
                 }
-            }
+            
         }
     }
 }

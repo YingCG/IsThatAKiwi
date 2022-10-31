@@ -13,7 +13,7 @@ namespace WindowsFormsKiwiApp
     public partial class KiwiForm : Form
     {
        Picture[] pictures = new Picture[5];
-       public int kiwiCount = 0;
+       // int kiwiCount = 0;
         public KiwiForm()
         {
             InitializeComponent();
@@ -21,33 +21,39 @@ namespace WindowsFormsKiwiApp
 
         private void btn_search_Click(object sender, EventArgs e)
         {
-            Random drawPic = new Random();
-
+            // Random drawPic = new Random();
+            int kiwiCount = 0;
             //lbl_result.Text = pictures[0].IsKiwi.ToString() + pictures[1].IsKiwi.ToString();
             lbl_result.Text = "";
 
+
+            Random r = new Random();
             // display the labels
             for (int i = 0; i < pictures.Length; i++)
             {
+                int index = r.Next(1,3);
+                pictures[i].checkKiwi(index);
+
                 lbl_result.Text += pictures[i].IsKiwi + ", ";
-                pictures[i].checkKiwi(drawPic);
+                
+                //pictures[i].checkKiwi();
                 if (pictures[i].IsKiwi == true)
                 {
-
                     // Ternary operator -->
                     // CONDITION ? DO IF TRUE : DO IF FALSE
                     // isCloudy ==? bringUmbrella() : bringSunglass()
 
-                    pictureBox1.Image = pictures[0].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
-                    pictureBox2.Image = pictures[1].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
-                    pictureBox3.Image = pictures[2].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
-                    pictureBox4.Image = pictures[3].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
-                    pictureBox5.Image = pictures[4].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
-
-                    int kiwiTotal = kiwiCount + 1;
-                    lbl_total.Text = kiwiTotal.ToString();
+                    kiwiCount++;
+                    
                 }
             }
+            lbl_total.Text = kiwiCount.ToString();
+
+            pictureBox1.Image = pictures[0].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
+            pictureBox2.Image = pictures[1].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
+            pictureBox3.Image = pictures[2].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
+            pictureBox4.Image = pictures[3].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
+            pictureBox5.Image = pictures[4].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
 
 
         }
@@ -62,7 +68,7 @@ namespace WindowsFormsKiwiApp
             //pictures[4] = new Picture(true);
             for (int i = 0; i < pictures.Length; i++)
             {
-                pictures[i] = new Picture(false);
+                pictures[i] = new Picture(1);
             }
         }
     }
