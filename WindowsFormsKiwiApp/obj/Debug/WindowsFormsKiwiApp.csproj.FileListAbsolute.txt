@@ -1,0 +1,10 @@
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\bin\Debug\WindowsFormsKiwiApp.exe.config
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\bin\Debug\WindowsFormsKiwiApp.exe
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\bin\Debug\WindowsFormsKiwiApp.pdb
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\obj\Debug\WindowsFormsKiwiApp.csproj.AssemblyReference.cache
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\obj\Debug\WindowsFormsKiwiApp.KiwiForm.resources
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\obj\Debug\WindowsFormsKiwiApp.Properties.Resources.resources
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\obj\Debug\WindowsFormsKiwiApp.csproj.GenerateResource.cache
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\obj\Debug\WindowsFormsKiwiApp.csproj.CoreCompileInputs.cache
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\obj\Debug\WindowsFormsKiwiApp.exe
+C:\Users\yingg\source\repos\WindowsFormsKiwiApp\WindowsFormsKiwiApp\obj\Debug\WindowsFormsKiwiApp.pdb
