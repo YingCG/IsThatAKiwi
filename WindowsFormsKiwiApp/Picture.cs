@@ -12,7 +12,6 @@ namespace WindowsFormsKiwiApp
         
         public Picture(int index)
         {
-            //int result = new Random().Next(1, 3);
             this.IsKiwi = (index == 1) ? true : false;
         }
         public void checkKiwi(int index)

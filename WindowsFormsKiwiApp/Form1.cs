@@ -39,23 +39,19 @@ namespace WindowsFormsKiwiApp
                 //pictures[i].checkKiwi();
                 if (pictures[i].IsKiwi == true)
                 {
-                    // Ternary operator -->
-                    // CONDITION ? DO IF TRUE : DO IF FALSE
-                    // isCloudy ==? bringUmbrella() : bringSunglass()
-
-                    kiwiCount++;
-                    
+                    kiwiCount++; 
                 }
             }
             lbl_total.Text = kiwiCount.ToString();
 
+            // Ternary operator -->
+            // CONDITION ? DO IF TRUE : DO IF FALSE
+            // isCloudy ==? bringUmbrella() : bringSunglass()
             pictureBox1.Image = pictures[0].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
             pictureBox2.Image = pictures[1].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
             pictureBox3.Image = pictures[2].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
             pictureBox4.Image = pictures[3].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
             pictureBox5.Image = pictures[4].IsKiwi ? Properties.Resources.kiwi_bird : Properties.Resources.pukeko;
-
-
         }
 
         private void KiwiForm_Load(object sender, EventArgs e)
