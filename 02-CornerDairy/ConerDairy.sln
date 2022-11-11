@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConerDairy", "ConerDairy.csproj", "{B2058B22-032A-4C66-A415-9CEF90DB978E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2058B22-032A-4C66-A415-9CEF90DB978E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2058B22-032A-4C66-A415-9CEF90DB978E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2058B22-032A-4C66-A415-9CEF90DB978E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2058B22-032A-4C66-A415-9CEF90DB978E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1248D07-6918-49D1-8B2E-1B1F69A3AE31}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+C:\Users\Ying\source\repos\RadioGroup\bin\Debug\RadioGroup.exe.config
+C:\Users\Ying\source\repos\RadioGroup\bin\Debug\RadioGroup.exe
+C:\Users\Ying\source\repos\RadioGroup\bin\Debug\RadioGroup.pdb
+C:\Users\Ying\source\repos\RadioGroup\obj\Debug\RadioGroup.csproj.AssemblyReference.cache
+C:\Users\Ying\source\repos\RadioGroup\obj\Debug\RadioGroup.Form1.resources
+C:\Users\Ying\source\repos\RadioGroup\obj\Debug\RadioGroup.Properties.Resources.resources
+C:\Users\Ying\source\repos\RadioGroup\obj\Debug\RadioGroup.csproj.GenerateResource.cache
+C:\Users\Ying\source\repos\RadioGroup\obj\Debug\RadioGroup.csproj.CoreCompileInputs.cache
+C:\Users\Ying\source\repos\RadioGroup\obj\Debug\RadioGroup.exe
+C:\Users\Ying\source\repos\RadioGroup\obj\Debug\RadioGroup.pdb
